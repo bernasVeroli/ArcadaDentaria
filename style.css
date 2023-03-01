@@ -1,0 +1,95 @@
+html {
+    background-color: #533E2D80;
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+header {
+    
+    font-weight: bolder;
+    font-size: calc(3vw + 5px);
+    text-align: left;
+    text-shadow: 1px 1px 0px #CACACA;
+    padding: 5px;
+    padding-left: 10px;
+
+    background-color: #FFFFFF;
+}
+.about {
+    display: inline-flex;
+    margin: 0 auto;
+    width: 93vw;
+    height: 300px;
+    
+    
+    justify-content:right;
+
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-image:url(./img/background1.png);
+    background-attachment: scroll;
+
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+    border-radius: 4px;
+}
+.description {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vw;
+
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #66666690;
+    border-radius: 4px;
+}
+.colaboradores {
+    margin-top: 15px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px black;
+    
+    background-image: url(./img/cool-background.png);
+
+}
+.colaborador {
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 0px 2px 2px black;
+}
+.descricaoColaboradores {
+    
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: #FFFB46AA;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90vw;
+    margin-top: 20px;
+
+    color: black;
+    text-shadow: 1px 1px 0px #EEABC4;
+    font-weight: bold;
+}
+.dColaborador {
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.endereco {
+    margin: 0;
+    margin-top: 30px;
+
+    background-color: white;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
