@@ -1,5 +1,5 @@
 html {
-    background-color: #533E2D80;
+    background-color: #89cff0;
     text-align: center;
 }
 body {
@@ -11,8 +11,8 @@ header {
     font-size: calc(3vw + 5px);
     text-align: left;
     text-shadow: 1px 1px 0px #CACACA;
-    padding: 5px;
-    padding-left: 10px;
+    padding: 10px;
+    padding-left: 15px;
 
     background-color: #FFFFFF;
 }
@@ -25,7 +25,7 @@ header {
     
     justify-content:right;
 
-    margin-top: 40px;
+    margin-top: 20px;
     background-repeat: no-repeat;
     background-image:url(./img/background1.png);
     background-attachment: scroll;
@@ -42,7 +42,7 @@ header {
 
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #66666690;
+    background-color: 	#D9A95190;
     border-radius: 4px;
 }
 .colaboradores {
@@ -58,29 +58,31 @@ header {
     text-shadow: 1px 1px 0px black;
     
     background-image: url(./img/cool-background.png);
-
+    user-select: none;
 }
 .colaborador {
-    width: 300px;
+    width: 25vw;
+    gap: 25px;
     border-radius: 100%;
     box-shadow: 0px 2px 2px black;
+    cursor: pointer;
 }
 .descricaoColaboradores {
     
     display: inline-flex;
     justify-content: space-evenly;
-    background-color: #FFFB46AA;
+    background-color: #D53D66DD;
     border-radius: 10px;
     margin: 0 auto;
-    width: 90vw;
+    width: fit-content;
     margin-top: 20px;
 
-    color: black;
-    text-shadow: 1px 1px 0px #EEABC4;
+    color: white;
+    text-shadow: 1px 1px 2px black;
     font-weight: bold;
 }
 .dColaborador {
-    width: 350px;
+    width: 30vw;
     padding-top: 15px;
     padding-bottom: 15px;
 }
